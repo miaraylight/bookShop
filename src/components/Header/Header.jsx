@@ -11,9 +11,9 @@ export default function Header() {
                 <img src="/media/pages.svg" alt="logo1" />
             </div>
             <div className={s['social-media']}>
-            <a className={s['social-media-link']} href="https://www.facebook.com/"><img src="/media/fb-icon.svg" alt="fb-icon" /></a>
-            <a className={s['social-media-link']} href="https://twitter.com/"><img src="/media/twitter-icon.svg" alt="twitter-icon" /></a>
-            <a className={s['social-media-link']}href="https://www.linkedin.com/"><img src="/media/linkedin-icon.svg" alt="linkedin-icon" /></a>
+            <a className={s['social-media-link']} href="https://www.facebook.com/" target="_blank"><img src="/media/fb-icon.svg" alt="fb-icon" /></a>
+            <a className={s['social-media-link']} href="https://twitter.com/" target="_blank"><img src="/media/twitter-icon.svg" alt="twitter-icon" /></a>
+            <a className={s['social-media-link']} href="https://www.linkedin.com/" target="_blank"><img src="/media/linkedin-icon.svg" alt="linkedin-icon" /></a>
             </div>
             
         </div>
