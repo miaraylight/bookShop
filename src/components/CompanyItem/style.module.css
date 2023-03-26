@@ -1,0 +1,38 @@
+.wrapper{
+    width: 313px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:center;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info p{
+    font-family: Cardo;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1B3764;
+    width: 90%;
+}
+.info span{
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #969AA0;
+    width: 90%;
+}
