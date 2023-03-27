@@ -1,7 +1,7 @@
 import React from 'react'
 import s from './style.module.css'
 
-export default function BookItem({title, price, descr, image}) {
+export default function BookItem({ title, price, descr, image }) {
   return (
     <div className={s.wrapper}>
         <div className={s.img}><img src={image} alt="book" /></div>

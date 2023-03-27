@@ -48,9 +48,9 @@ export default function ArticlesPage() {
   return (
     <div className={s.container}>
       <h2>What Will You Learn?</h2>
-        <span className={s.line}>
-          <img src="/media/line-icon.png" alt="icon" />
-        </span>
+      <span className={s.line}>
+        <img src="/media/line-icon.png" alt="icon"/>
+      </span>
       <div className={s.info}>
         <div className={s.subjects}>
           {

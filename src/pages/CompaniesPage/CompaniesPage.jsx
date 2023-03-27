@@ -33,7 +33,7 @@ export default function CompaniesPage() {
     <div className={s.container}>
       <h1>Trusted By The Best</h1>
       <div className={s.line}>
-      <img  src="/media/line-icon.png" alt="icon" />
+        <img  src="/media/line-icon.png" alt="icon" />
       </div>
       <div className={s.companies}>
         {

@@ -1,22 +1,25 @@
-.wrapper{
+.wrapper {
     width: 313px;
     height: 280px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content:center;
+    justify-content: center;
 }
-.img{
+
+.img {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.info{
+
+.info {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.info p{
+
+.info p {
     font-family: Cardo;
     font-size: 24px;
     font-weight: 400;
@@ -26,7 +29,8 @@
     color: #1B3764;
     width: 90%;
 }
-.info span{
+
+.info span {
     font-family: Inter;
     font-size: 19px;
     font-weight: 400;

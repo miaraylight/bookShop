@@ -11,10 +11,10 @@ export default function Footer() {
                 <img src="/media/pages.svg" alt="logo1" />
             </div>
             <div className={s['social-media']}>
-                  <a className={s['social-media-link']} href="https://www.facebook.com/" target="_blank"><img src="/media/fb-icon-white.svg" alt="fb-icon" /></a>
-                  <a className={s['social-media-link']} href="https://twitter.com/" target="_blank"><img src="/media/twitter-icon-white.svg" alt="twitter-icon" /></a>
-                  <a className={s['social-media-link']} href="https://www.linkedin.com/" target="_blank"><img src="/media/linkedin-icon-white.svg" alt="linkedin-icon" /></a>
-                  <a className={s['social-media-link']} href="https://www.instagram.com/" target="_blank"><img src="/media/instagram-icon.svg" alt="instagram-icon" /></a>
+                <a className={s['social-media-link']} href="https://www.facebook.com/" target="_blank"><img src="/media/fb-icon-white.svg" alt="fb-icon" /></a>
+                <a className={s['social-media-link']} href="https://twitter.com/" target="_blank"><img src="/media/twitter-icon-white.svg" alt="twitter-icon" /></a>
+                <a className={s['social-media-link']} href="https://www.linkedin.com/" target="_blank"><img src="/media/linkedin-icon-white.svg" alt="linkedin-icon" /></a>
+                <a className={s['social-media-link']} href="https://www.instagram.com/" target="_blank"><img src="/media/instagram-icon.svg" alt="instagram-icon" /></a>
             </div>
         </div>
         <div className={s.explore}>
