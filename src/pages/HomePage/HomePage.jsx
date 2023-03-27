@@ -8,7 +8,7 @@ export default function HomePage() {
                 <div className={s.title}>
                     <div className={s.greating}>
                         <span className={s.line}>
-                            <img src="../../../public/media/line-icon.png" alt="icon" />
+                            <img src="../../../public/image/line-icon.png" alt="icon" />
                         </span>
                         <span>Welcome To Pages!!!</span>
                     </div>
@@ -21,15 +21,15 @@ export default function HomePage() {
                 </div>
                 <div className={s.info}>
                     <div>
-                        <img src="../../../public/media/yellow-dot-icon.png" alt="yellow-dot-icon" />
+                        <img src="../../../public/image/yellow-dot-icon.png" alt="yellow-dot-icon" />
                         <span> Pages: </span>
                     </div>
                     <div>
-                        <img src="../../../public/media/yellow-dot-icon.png" alt="yellow-dot-icon" />
+                        <img src="../../../public/image/yellow-dot-icon.png" alt="yellow-dot-icon" />
                         <span> Length: </span>
                     </div>
                     <div>
-                        <img src="../../../public/media/yellow-dot-icon.png" alt="yellow-dot-icon" />
+                        <img src="../../../public/image/yellow-dot-icon.png" alt="yellow-dot-icon" />
                         <span> Rating: </span>
                     </div>
                     <p>250 pages</p>
@@ -38,7 +38,7 @@ export default function HomePage() {
                 </div>
             </div>
             <div className={s.book}>
-                <img src="../../../public/media/book1.png" alt="book-title" />
+                <img src="../../../public/image/book1.png" alt="book-title" />
             </div>
         </div>
     )

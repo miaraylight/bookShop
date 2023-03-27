@@ -7,8 +7,8 @@ export default function Footer() {
     <div className={s.wrapper}>
         <div className={s.head}>
             <div className={s.logo}>
-                <img src="../media/logo.svg" alt="logo" />
-                <img src="../media/pages.svg" alt="logo1" />
+                <img src="../../../public/image/logo.svg" alt="logo" />
+                <img src="../../../public/image/pages.svg" alt="logo1" />
             </div>
             <div className={s['social-media']}>
                 <a className={s['social-media-link']} href="https://www.facebook.com/" target="_blank"><img src="../../../public/media/fb-icon-white.svg" alt="fb-icon" /></a>
