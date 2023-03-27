@@ -2,6 +2,11 @@ import React from 'react'
 import ArticleItem from '../../components/ArticleItem/ArticleItem'
 import SubjectItem from '../../components/SubjectItem/SubjectItem'
 import s from './style.module.css'
+import lineIcon from '../../image/line-icon.png'
+import readerImage from '../../image/IMAGE1.png'
+import articles1 from '../../image/articles1.png'
+import articles2 from '../../image/articles2.png'
+import articles3 from '../../image/articles3.png'
 
 export default function ArticlesPage() {
   const data = [
@@ -28,28 +33,28 @@ export default function ArticlesPage() {
       title: 'Significant reading has more info number',
       descr: 'Override the digital divide with additional clickthroughs from DevOps for real-time schemas.',
       date: 'October 6, 2021',
-      image: '../../../public/image/articles1.png'
+      image: articles1
     },
     {
       id: 2,
       title: 'Many variations of pass majority have suffered',
       descr: 'Capitalize on low-hanging fruit to identify a ballpark value-added activity to beta test.',
       date: 'October 6, 2021',
-      image: '../../../public/image/articles2.png'
+      image: articles2
     },
     {
       id: 3,
       title: 'Words which don’t look even slightly believable',
       descr: 'Podcasting operational change management inside of workflows to establish a framework.',
       date: 'October 6, 2021',
-      image: '../../../public/image/articles3.png'
+      image: articles3
     },
   ]
   return (
     <div className={s.container}>
       <h2>What Will You Learn?</h2>
       <span className={s.line}>
-        <img src="../../../public/image/line-icon.png" alt="icon"/>
+        <img src={lineIcon} alt="icon"/>
       </span>
       <div className={s.info}>
         <div className={s.subjects}>
@@ -59,14 +64,14 @@ export default function ArticlesPage() {
         </div>
         <div className={s.imgWrapper}>
           <div className={s.img}>
-            <img src="../../../public/image/IMAGE1.png" alt="book-reader" />
+            <img src={readerImage} alt="book-reader" />
           </div>
         </div>
       </div>
       <div className={s.articles}>
         <h2>Articles & Resources</h2>
         <span className={s.line}>
-          <img src="../../../public/image/line-icon.png" alt="icon" />
+          <img src={lineIcon} alt="icon" />
         </span>
         <div className={s.comments}>
           {

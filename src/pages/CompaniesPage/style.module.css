@@ -37,7 +37,7 @@
     padding: 70px 70px;
     display: flex;
     background-color: #1B3764;
-    background-image: url(../../../public/image/IMAGE.png);
+    background-image: url(../../image/IMAGE.png);
     background-repeat: no-repeat;
     background-position: 90% 50%;
     border-bottom: 1px solid white;

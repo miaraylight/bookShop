@@ -1,5 +1,8 @@
 import React from 'react'
 import s from './style.module.css'
+import bookTitle from '../../image/book1.png' 
+import lineIcon from '../../image/line-icon.png'
+import yellowDot from '../../image/yellow-dot-icon.png'
 
 export default function HomePage() {
     return (
@@ -8,7 +11,7 @@ export default function HomePage() {
                 <div className={s.title}>
                     <div className={s.greating}>
                         <span className={s.line}>
-                            <img src="../../../public/image/line-icon.png" alt="icon" />
+                            <img src={lineIcon} alt="lineicon" />
                         </span>
                         <span>Welcome To Pages!!!</span>
                     </div>
@@ -21,15 +24,15 @@ export default function HomePage() {
                 </div>
                 <div className={s.info}>
                     <div>
-                        <img src="../../../public/image/yellow-dot-icon.png" alt="yellow-dot-icon" />
+                        <img src={yellowDot} alt="yellow-dot-icon" />
                         <span> Pages: </span>
                     </div>
                     <div>
-                        <img src="../../../public/image/yellow-dot-icon.png" alt="yellow-dot-icon" />
+                        <img src={yellowDot} alt="yellow-dot-icon" />
                         <span> Length: </span>
                     </div>
                     <div>
-                        <img src="../../../public/image/yellow-dot-icon.png" alt="yellow-dot-icon" />
+                        <img src={yellowDot} alt="yellow-dot-icon" />
                         <span> Rating: </span>
                     </div>
                     <p>250 pages</p>
@@ -38,7 +41,7 @@ export default function HomePage() {
                 </div>
             </div>
             <div className={s.book}>
-                <img src="../../../public/image/book1.png" alt="book-title" />
+                <img src={bookTitle} alt="book-title" />
             </div>
         </div>
     )

@@ -1,20 +1,26 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import s from './style.module.css'
+import logo from '../../image/logo.svg'
+import logoPages from '../../image/pages.svg'
+import fbIcon from '../../image/fb-icon-white.svg'
+import twitIcon from '../../image/twitter-icon-white.svg'
+import linIcon from '../../image/linkedin-icon-white.svg'
+import instaIcon from '../../image/instagram-icon.svg'
 
 export default function Footer() {
   return (
     <div className={s.wrapper}>
         <div className={s.head}>
             <div className={s.logo}>
-                <img src="../../../public/image/logo.svg" alt="logo" />
-                <img src="../../../public/image/pages.svg" alt="logo1" />
+                <img src={logo} alt="logo" />
+                <img src={logoPages} alt="logo1" />
             </div>
             <div className={s['social-media']}>
-                <a className={s['social-media-link']} href="https://www.facebook.com/" target="_blank"><img src="../../../public/media/fb-icon-white.svg" alt="fb-icon" /></a>
-                <a className={s['social-media-link']} href="https://twitter.com/" target="_blank"><img src="../../../public/media/twitter-icon-white.svg" alt="twitter-icon" /></a>
-                <a className={s['social-media-link']} href="https://www.linkedin.com/" target="_blank"><img src="../../../public/media/linkedin-icon-white.svg" alt="linkedin-icon" /></a>
-                <a className={s['social-media-link']} href="https://www.instagram.com/" target="_blank"><img src="../../../public/media/instagram-icon.svg" alt="instagram-icon" /></a>
+              <a className={s['social-media-link']} href="https://www.facebook.com/" target="_blank"><img src={fbIcon} alt="fb-icon" /></a>
+              <a className={s['social-media-link']} href="https://twitter.com/" target="_blank"><img src={twitIcon} alt="twitter-icon" /></a>
+              <a className={s['social-media-link']} href="https://www.linkedin.com/" target="_blank"><img src={linIcon} alt="linkedin-icon" /></a>
+              <a className={s['social-media-link']} href="https://www.instagram.com/" target="_blank"><img src={instaIcon} alt="instagram-icon" /></a>
             </div>
         </div>
         <div className={s.explore}>

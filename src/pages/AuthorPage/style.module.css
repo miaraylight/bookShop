@@ -39,7 +39,7 @@
 
 .image {
     width: 100%;
-    background-image: url(../../../public/image/yellow-rectangle.png);
+    background-image: url(../../image/yellow-rectangle.png);
     background-position: 50px 50px;
     background-repeat: no-repeat;
 
