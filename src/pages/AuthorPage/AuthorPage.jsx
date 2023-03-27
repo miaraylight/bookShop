@@ -9,14 +9,14 @@ export default function AuthorPage() {
       title: 'Atomic One’s',
       price: '$ 13.84 USD',
       descr: 'As the book contains theoretical content as well as solved questions.',
-      image: '/media/book2.png'
+      image: '../../../public/media/book2.png'
     },
     {
       id: 2,
       title: 'The Dark Light',
       price: '$ 86.11 USD',
       descr: 'As the book contains theoretical content as well as solved questions.',
-      image: '/media/book3.png'
+      image: '../../../public/media/book3.png'
     }
   ]
   return (
@@ -24,7 +24,7 @@ export default function AuthorPage() {
       <div className={s.wrapper}>
         <h2>The Author’s Book</h2>
         <span className={s.line}>
-          <img src="/media/line-icon.png" alt="icon" />
+          <img src="../../../public/media/line-icon.png" alt="icon" />
         </span>
         <div className={s.books}>
           {
@@ -34,12 +34,12 @@ export default function AuthorPage() {
       </div>
       <div className={s.author}>
         <div className={s.image}>
-          <img className={s.img} src="/media/author.png" alt="" />
+          <img className={s.img} src="../../../public/media/author.png" alt="" />
         </div>
         <div className={s.about}>
           <h2>About the Author</h2>
           <span className={s.dash}>
-            <img src="/media/line-icon.png" alt="icon" />
+            <img src="../../../public/media/line-icon.png" alt="icon" />
           </span>
           <p className={s.descr}>We believe that bookstores are essential to a healthy culture. They’re where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime.</p>
           <div className={s.rating}>
@@ -58,7 +58,7 @@ export default function AuthorPage() {
           </div>
           <div className={s.contacts}>
             <div className={s.qr}>
-              <img src="/media/qr.png" alt="qr" />
+              <img src="../../../public/media/qr.png" alt="qr" />
             </div>
             <div className={s['author-contact']}>
               <p>John Abraham , Ph.d</p>
