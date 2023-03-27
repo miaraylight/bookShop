@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import s from './style.module.css'
 
 export default function Header() {
+  const checkClass = ({isActive}) => isActive ? s.active : '';
   return (
     <div className={s.wrapper}>
         <div className={s.head}>
@@ -18,10 +19,10 @@ export default function Header() {
             
         </div>
         <nav className={s['nav-wrapper']}>
-            <NavLink className={s.nav} to='/'>Home</NavLink>
-            <NavLink className={s.nav} to='/author'>Author</NavLink>
-            <NavLink className={s.nav} to='/companies'>Companies</NavLink>
-            <NavLink className={s.nav} to='/articles'>Articles</NavLink>
+            <NavLink className={checkClass} to='/'>Home</NavLink>
+            <NavLink className={checkClass} to='/author'>Author</NavLink>
+            <NavLink className={checkClass} to='/companies'>Companies</NavLink>
+            <NavLink className={checkClass} to='/articles'>Articles</NavLink>
         </nav>
         <button className={s.order}>Order Today</button>
     </div>

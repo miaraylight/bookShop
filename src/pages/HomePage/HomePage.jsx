@@ -6,7 +6,12 @@ export default function HomePage() {
     <div className={s.wrapper}>
         <div className={s.main}>
             <div className={s.title}>
-                <span> <img src="/media/dash.svg" alt="" /> Welcome To Pages!!!</span>
+            <div className={s.greating}>
+            <span className={s.line}>
+          <img src="/media/line-icon.png" alt="icon" />
+        </span>
+                <span>Welcome To Pages!!!</span>
+            </div>
                 <h1>Your Books From The Best Writer.</h1>
                 <p>We believe that reading books are essential to a healthy culture. They’re where authors can connect with readers.</p>
             </div>

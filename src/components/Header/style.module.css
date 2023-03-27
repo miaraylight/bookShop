@@ -53,10 +53,9 @@
 .nav-wrapper {
     width: 100%;
     display: flex;
-    justify-content: end;
-    
+    justify-content: end;   
 }
-.nav{
+.nav-wrapper a{
     font-family: Inter;
     font-size: 17px;
     font-weight: 400;
@@ -66,10 +65,18 @@
     margin: 0 20px;
     transition: color 1s;
 }
-.nav:focus{
+
+.nav-wrapper .active{
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: color 1s;
     color: #FFCA42;
 }
-.nav:hover{
+.nav-wrapper a:hover{
     color: #FFCA42;
 }
 .order{
